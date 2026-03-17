@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+*.swp
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Node (for API server)
+node_modules/
+dist/
+
+# Environment
+.env
+.env.local
+
+# Audio / transcription cache
+*.wav
+*.m4a
+*.tmp
+.cache/
